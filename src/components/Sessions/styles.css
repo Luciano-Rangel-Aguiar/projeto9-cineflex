@@ -1,0 +1,39 @@
+body {
+  padding-top: 67px;
+  padding-bottom: 125px;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #293845;
+}
+.schedules p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+
+  color: #293845;
+}
+.schedules button {
+  border: none;
+  width: 83px;
+  height: 43px;
+  margin: 20px 5px;
+
+  background: #e8833a;
+  border-radius: 3px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}

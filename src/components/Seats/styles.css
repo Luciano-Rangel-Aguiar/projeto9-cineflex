@@ -1,0 +1,129 @@
+.MovieSessions {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MovieSessions h2 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.MovieSessions .seats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 330px;
+}
+
+.MovieSessions .seat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  margin-left: 7px;
+  margin-bottom: 19px;
+}
+
+.MovieSessions .seat p {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.MovieSessions .seats-subtitle {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.MovieSessions .seats-subtitle p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  align-items: center;
+  letter-spacing: -0.013em;
+  color: #4e5a65;
+  margin-top: 55px;
+}
+
+.available {
+  background-color: #c3cfd9;
+  border: 1px solid #7b8b99;
+}
+
+.selected {
+  background-color: #8dd7cf;
+  border: 1px solid #1aae9e;
+}
+
+.unavailable {
+  background-color: #fbe192;
+  border: 1px solid #f7c52b;
+}
+
+.MovieSessions .user-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 41px;
+}
+
+.MovieSessions .user-data p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #293845;
+}
+
+.MovieSessions .user-data div:last-child {
+  margin-top: 7px;
+}
+
+.MovieSessions .user-data input {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  padding-left: 18px;
+  width: 327px;
+  height: 51px;
+  background-color: #ffffff;
+  border: 1px solid #d5d5d5;
+  border-radius: 3px;
+  font-size: 18px;
+}
+
+.MovieSessions .user-data input::placeholder {
+  font-family: "Roboto", sans-serif;
+  position: absolute 0 auto;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #afafaf;
+}
+
+.MovieSessions button {
+  width: 225px;
+  height: 42px;
+  background-color: #e8833a;
+  border-radius: 3px;
+  border: none;
+  color: #ffffff;
+  margin-top: 57px;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
